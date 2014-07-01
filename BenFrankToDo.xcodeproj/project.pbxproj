@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF742CBA1962656E0085FB14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF742CB91962656E0085FB14 /* Foundation.framework */; };
+		BF742CBC1962656E0085FB14 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF742CBB1962656E0085FB14 /* CoreGraphics.framework */; };
+		BF742CBE1962656E0085FB14 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF742CBD1962656E0085FB14 /* UIKit.framework */; };
+		BF742CC01962656E0085FB14 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF742CBF1962656E0085FB14 /* CoreData.framework */; };
+		BF742CC61962656E0085FB14 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF742CC41962656E0085FB14 /* InfoPlist.strings */; };
+		BF742CC81962656E0085FB14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF742CC71962656E0085FB14 /* main.m */; };
+		BF742CCC1962656E0085FB14 /* SIRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF742CCB1962656E0085FB14 /* SIRAppDelegate.m */; };
+		BF742CCF1962656E0085FB14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF742CCD1962656E0085FB14 /* Main.storyboard */; };
+		BF742CD21962656E0085FB14 /* BenFrankToDo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF742CD01962656E0085FB14 /* BenFrankToDo.xcdatamodeld */; };
+		BF742CD51962656E0085FB14 /* SIRMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF742CD41962656E0085FB14 /* SIRMasterViewController.m */; };
+		BF742CD81962656E0085FB14 /* SIRDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF742CD71962656E0085FB14 /* SIRDetailViewController.m */; };
+		BF742CDA1962656E0085FB14 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF742CD91962656E0085FB14 /* Images.xcassets */; };
+		BF742CE11962656E0085FB14 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF742CE01962656E0085FB14 /* XCTest.framework */; };
+		BF742CE21962656E0085FB14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF742CB91962656E0085FB14 /* Foundation.framework */; };
+		BF742CE31962656E0085FB14 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF742CBD1962656E0085FB14 /* UIKit.framework */; };
+		BF742CE41962656E0085FB14 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF742CBF1962656E0085FB14 /* CoreData.framework */; };
+		BF742CEC1962656E0085FB14 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF742CEA1962656E0085FB14 /* InfoPlist.strings */; };
+		BF742CEE1962656E0085FB14 /* BenFrankToDoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF742CED1962656E0085FB14 /* BenFrankToDoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF742CE51962656E0085FB14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF742CAE1962656E0085FB14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF742CB51962656E0085FB14;
+			remoteInfo = BenFrankToDo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF742CB61962656E0085FB14 /* BenFrankToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BenFrankToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF742CB91962656E0085FB14 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BF742CBB1962656E0085FB14 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BF742CBD1962656E0085FB14 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BF742CBF1962656E0085FB14 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BF742CC31962656E0085FB14 /* BenFrankToDo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BenFrankToDo-Info.plist"; sourceTree = "<group>"; };
+		BF742CC51962656E0085FB14 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BF742CC71962656E0085FB14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF742CC91962656E0085FB14 /* BenFrankToDo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BenFrankToDo-Prefix.pch"; sourceTree = "<group>"; };
+		BF742CCA1962656E0085FB14 /* SIRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SIRAppDelegate.h; sourceTree = "<group>"; };
+		BF742CCB1962656E0085FB14 /* SIRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SIRAppDelegate.m; sourceTree = "<group>"; };
+		BF742CCE1962656E0085FB14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF742CD11962656E0085FB14 /* BenFrankToDo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BenFrankToDo.xcdatamodel; sourceTree = "<group>"; };
+		BF742CD31962656E0085FB14 /* SIRMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SIRMasterViewController.h; sourceTree = "<group>"; };
+		BF742CD41962656E0085FB14 /* SIRMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SIRMasterViewController.m; sourceTree = "<group>"; };
+		BF742CD61962656E0085FB14 /* SIRDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SIRDetailViewController.h; sourceTree = "<group>"; };
+		BF742CD71962656E0085FB14 /* SIRDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SIRDetailViewController.m; sourceTree = "<group>"; };
+		BF742CD91962656E0085FB14 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BF742CDF1962656E0085FB14 /* BenFrankToDoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BenFrankToDoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF742CE01962656E0085FB14 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BF742CE91962656E0085FB14 /* BenFrankToDoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BenFrankToDoTests-Info.plist"; sourceTree = "<group>"; };
+		BF742CEB1962656E0085FB14 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BF742CED1962656E0085FB14 /* BenFrankToDoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BenFrankToDoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF742CB31962656E0085FB14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF742CBC1962656E0085FB14 /* CoreGraphics.framework in Frameworks */,
+				BF742CC01962656E0085FB14 /* CoreData.framework in Frameworks */,
+				BF742CBE1962656E0085FB14 /* UIKit.framework in Frameworks */,
+				BF742CBA1962656E0085FB14 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF742CDC1962656E0085FB14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF742CE11962656E0085FB14 /* XCTest.framework in Frameworks */,
+				BF742CE41962656E0085FB14 /* CoreData.framework in Frameworks */,
+				BF742CE31962656E0085FB14 /* UIKit.framework in Frameworks */,
+				BF742CE21962656E0085FB14 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF742CAD1962656E0085FB14 = {
+			isa = PBXGroup;
+			children = (
+				BF742CC11962656E0085FB14 /* BenFrankToDo */,
+				BF742CE71962656E0085FB14 /* BenFrankToDoTests */,
+				BF742CB81962656E0085FB14 /* Frameworks */,
+				BF742CB71962656E0085FB14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF742CB71962656E0085FB14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF742CB61962656E0085FB14 /* BenFrankToDo.app */,
+				BF742CDF1962656E0085FB14 /* BenFrankToDoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF742CB81962656E0085FB14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF742CB91962656E0085FB14 /* Foundation.framework */,
+				BF742CBB1962656E0085FB14 /* CoreGraphics.framework */,
+				BF742CBD1962656E0085FB14 /* UIKit.framework */,
+				BF742CBF1962656E0085FB14 /* CoreData.framework */,
+				BF742CE01962656E0085FB14 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF742CC11962656E0085FB14 /* BenFrankToDo */ = {
+			isa = PBXGroup;
+			children = (
+				BF742CCA1962656E0085FB14 /* SIRAppDelegate.h */,
+				BF742CCB1962656E0085FB14 /* SIRAppDelegate.m */,
+				BF742CCD1962656E0085FB14 /* Main.storyboard */,
+				BF742CD31962656E0085FB14 /* SIRMasterViewController.h */,
+				BF742CD41962656E0085FB14 /* SIRMasterViewController.m */,
+				BF742CD61962656E0085FB14 /* SIRDetailViewController.h */,
+				BF742CD71962656E0085FB14 /* SIRDetailViewController.m */,
+				BF742CD91962656E0085FB14 /* Images.xcassets */,
+				BF742CD01962656E0085FB14 /* BenFrankToDo.xcdatamodeld */,
+				BF742CC21962656E0085FB14 /* Supporting Files */,
+			);
+			path = BenFrankToDo;
+			sourceTree = "<group>";
+		};
+		BF742CC21962656E0085FB14 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF742CC31962656E0085FB14 /* BenFrankToDo-Info.plist */,
+				BF742CC41962656E0085FB14 /* InfoPlist.strings */,
+				BF742CC71962656E0085FB14 /* main.m */,
+				BF742CC91962656E0085FB14 /* BenFrankToDo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF742CE71962656E0085FB14 /* BenFrankToDoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF742CED1962656E0085FB14 /* BenFrankToDoTests.m */,
+				BF742CE81962656E0085FB14 /* Supporting Files */,
+			);
+			path = BenFrankToDoTests;
+			sourceTree = "<group>";
+		};
+		BF742CE81962656E0085FB14 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF742CE91962656E0085FB14 /* BenFrankToDoTests-Info.plist */,
+				BF742CEA1962656E0085FB14 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF742CB51962656E0085FB14 /* BenFrankToDo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF742CF11962656E0085FB14 /* Build configuration list for PBXNativeTarget "BenFrankToDo" */;
+			buildPhases = (
+				BF742CB21962656E0085FB14 /* Sources */,
+				BF742CB31962656E0085FB14 /* Frameworks */,
+				BF742CB41962656E0085FB14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BenFrankToDo;
+			productName = BenFrankToDo;
+			productReference = BF742CB61962656E0085FB14 /* BenFrankToDo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF742CDE1962656E0085FB14 /* BenFrankToDoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF742CF41962656E0085FB14 /* Build configuration list for PBXNativeTarget "BenFrankToDoTests" */;
+			buildPhases = (
+				BF742CDB1962656E0085FB14 /* Sources */,
+				BF742CDC1962656E0085FB14 /* Frameworks */,
+				BF742CDD1962656E0085FB14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF742CE61962656E0085FB14 /* PBXTargetDependency */,
+			);
+			name = BenFrankToDoTests;
+			productName = BenFrankToDoTests;
+			productReference = BF742CDF1962656E0085FB14 /* BenFrankToDoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF742CAE1962656E0085FB14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SIR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Malek Zin";
+				TargetAttributes = {
+					BF742CDE1962656E0085FB14 = {
+						TestTargetID = BF742CB51962656E0085FB14;
+					};
+				};
+			};
+			buildConfigurationList = BF742CB11962656E0085FB14 /* Build configuration list for PBXProject "BenFrankToDo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF742CAD1962656E0085FB14;
+			productRefGroup = BF742CB71962656E0085FB14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF742CB51962656E0085FB14 /* BenFrankToDo */,
+				BF742CDE1962656E0085FB14 /* BenFrankToDoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF742CB41962656E0085FB14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF742CDA1962656E0085FB14 /* Images.xcassets in Resources */,
+				BF742CC61962656E0085FB14 /* InfoPlist.strings in Resources */,
+				BF742CCF1962656E0085FB14 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF742CDD1962656E0085FB14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF742CEC1962656E0085FB14 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF742CB21962656E0085FB14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF742CC81962656E0085FB14 /* main.m in Sources */,
+				BF742CD51962656E0085FB14 /* SIRMasterViewController.m in Sources */,
+				BF742CD81962656E0085FB14 /* SIRDetailViewController.m in Sources */,
+				BF742CCC1962656E0085FB14 /* SIRAppDelegate.m in Sources */,
+				BF742CD21962656E0085FB14 /* BenFrankToDo.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF742CDB1962656E0085FB14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF742CEE1962656E0085FB14 /* BenFrankToDoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF742CE61962656E0085FB14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF742CB51962656E0085FB14 /* BenFrankToDo */;
+			targetProxy = BF742CE51962656E0085FB14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF742CC41962656E0085FB14 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF742CC51962656E0085FB14 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BF742CCD1962656E0085FB14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF742CCE1962656E0085FB14 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF742CEA1962656E0085FB14 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF742CEB1962656E0085FB14 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF742CEF1962656E0085FB14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF742CF01962656E0085FB14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF742CF21962656E0085FB14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BenFrankToDo/BenFrankToDo-Prefix.pch";
+				INFOPLIST_FILE = "BenFrankToDo/BenFrankToDo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BF742CF31962656E0085FB14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BenFrankToDo/BenFrankToDo-Prefix.pch";
+				INFOPLIST_FILE = "BenFrankToDo/BenFrankToDo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BF742CF51962656E0085FB14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BenFrankToDo.app/BenFrankToDo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BenFrankToDo/BenFrankToDo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BenFrankToDoTests/BenFrankToDoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BF742CF61962656E0085FB14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BenFrankToDo.app/BenFrankToDo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BenFrankToDo/BenFrankToDo-Prefix.pch";
+				INFOPLIST_FILE = "BenFrankToDoTests/BenFrankToDoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF742CB11962656E0085FB14 /* Build configuration list for PBXProject "BenFrankToDo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF742CEF1962656E0085FB14 /* Debug */,
+				BF742CF01962656E0085FB14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF742CF11962656E0085FB14 /* Build configuration list for PBXNativeTarget "BenFrankToDo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF742CF21962656E0085FB14 /* Debug */,
+				BF742CF31962656E0085FB14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF742CF41962656E0085FB14 /* Build configuration list for PBXNativeTarget "BenFrankToDoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF742CF51962656E0085FB14 /* Debug */,
+				BF742CF61962656E0085FB14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BF742CD01962656E0085FB14 /* BenFrankToDo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BF742CD11962656E0085FB14 /* BenFrankToDo.xcdatamodel */,
+			);
+			currentVersion = BF742CD11962656E0085FB14 /* BenFrankToDo.xcdatamodel */;
+			path = BenFrankToDo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BF742CAE1962656E0085FB14 /* Project object */;
+}
